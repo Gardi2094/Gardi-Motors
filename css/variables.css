@@ -1,0 +1,16 @@
+:root {
+  --ink: #10151c;
+  --deep: #0c1118;
+  --deep-2: #17202a;
+  --text: #242a33;
+  --muted: #6f7780;
+  --gold: #c6a370;
+  --gold-light: #e9d1a7;
+  --cream: #f8f6f1;
+  --white: #fff;
+  --line: #e4e1dc;
+  --red: #a4292d;
+  --radius: 15px;
+  --shadow: 0 22px 60px rgba(15, 19, 28, .1);
+  --container: 1216px;
+}

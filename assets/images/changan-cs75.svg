@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="460" viewBox="0 0 740 460" role="img" aria-label="Stylized SUV concept in a premium showroom">
+<defs>
+  <linearGradient id="wall-cs75" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d2934"/><stop offset=".6" stop-color="#17212b"/><stop offset="1" stop-color="#2f3336"/></linearGradient>
+  <linearGradient id="floor-cs75" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#464b4b"/><stop offset="1" stop-color="#151a20"/></linearGradient>
+  <linearGradient id="body-cs75" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#ffffff"/><stop offset=".17" stop-color="#b1b9bc"/><stop offset=".63" stop-color="#b1b9bc"/><stop offset="1" stop-color="#333b43"/></linearGradient>
+  <linearGradient id="glass-cs75" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#465d65"/><stop offset=".48" stop-color="#172532"/><stop offset="1" stop-color="#050c14"/></linearGradient>
+  <linearGradient id="chrome-cs75" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d6d9dc"/><stop offset="1" stop-color="#566273"/></linearGradient>
+  <radialGradient id="spot-cs75" cx="50%" cy="40%" r="64%"><stop stop-color="#e6c28a" stop-opacity=".23"/><stop offset="1" stop-color="#e6c28a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="tire-cs75" cx="45%" cy="40%" r="60%"><stop stop-color="#343c43"/><stop offset=".67" stop-color="#141b21"/><stop offset="1" stop-color="#020509"/></radialGradient>
+  <filter id="blur-cs75"><feGaussianBlur stdDeviation="13"/></filter>
+</defs>
+<rect width="740" height="460" fill="url(#wall-cs75)"/>
+<rect x="0" y="0" width="740" height="337" fill="url(#spot-cs75)"/>
+<g opacity=".35" stroke="#9f8c73" stroke-width="1.5"><path d="M78 0V342M197 0V342M554 0V342M670 0V342"/><path d="M0 320H740"/></g>
+<g opacity=".9"><path d="M0 28 Q370 -35 740 28" fill="none" stroke="#e6c28a" stroke-width="5"/><path d="M0 44 Q370 -18 740 44" fill="none" stroke="#f6e4b0" stroke-opacity=".4" stroke-width="2"/></g>
+<path d="M0 333H740V460H0Z" fill="url(#floor-cs75)"/>
+<path d="M0 335H740" stroke="#e3cba4" stroke-opacity=".3" stroke-width="2"/>
+<ellipse cx="369" cy="353" rx="292" ry="35" fill="#000" opacity=".54" filter="url(#blur-cs75)"/>
+<g opacity=".24"><path d="M160 374 Q373 398 605 374" fill="none" stroke="#e6c28a" stroke-width="7" filter="url(#blur-cs75)"/><path d="M195 405Q370 430 572 405" fill="none" stroke="#e6c28a" stroke-width="2"/></g>
+<!-- SUV body: illustrated vehicle concept, not a real make/model photograph -->
+<path d="M115 273L144 256 180 247 218 201Q227 190 250 184L477 178Q501 180 521 197L580 248 626 259Q642 264 649 277L659 302 658 332Q638 343 604 342L142 343Q109 340 99 328L103 294Q106 279 115 273Z" fill="url(#body-cs75)" stroke="#ced2d0" stroke-opacity=".55" stroke-width="2.5"/>
+<path d="M217 203Q235 187 254 187L471 183Q489 184 501 198L552 246 173 250Z" fill="url(#glass-cs75)" stroke="#e7dbbd" stroke-opacity=".62" stroke-width="3"/>
+<path d="M351 187L350 248" stroke="#a3a9ac" stroke-width="9" opacity=".8"/>
+<path d="M356 190L357 247" stroke="#f4f4ea" stroke-width="2" opacity=".55"/>
+<path d="M481 187L508 246" stroke="#c6b9a2" stroke-width="7" opacity=".85"/>
+<path d="M223 215L176 249 189 250 230 205" fill="#e5d9c5" opacity=".35"/>
+<path d="M183 254L599 252" fill="none" stroke="#fff" opacity=".45" stroke-width="2"/>
+<path d="M132 287Q363 271 624 278" stroke="#fff" stroke-opacity=".37" fill="none" stroke-width="2"/>
+<path d="M142 331H636" stroke="#111922" stroke-opacity=".45" stroke-width="5"/>
+<path d="M125 297L174 289 174 307 120 313Z" fill="#f7f0d8" opacity=".95"/>
+<path d="M602 282L640 288 648 306 603 300Z" fill="#ae1e22" opacity=".87"/>
+<path d="M652 297L663 298 661 319 650 319Z" fill="#11171e"/>
+<path d="M120 315L159 313" stroke="#282d33" stroke-width="7"/>
+<rect x="375" y="267" width="29" height="5" rx="2.5" fill="#2d3437" opacity=".85"/>
+<path d="M293 274L287 309M509 274L511 307" stroke="#474c4f" stroke-opacity=".25" stroke-width="2"/>
+<path d="M160 254l-18-17 5-7 28 12 8 16" fill="#b1b9bc" stroke="#9d9e9c" stroke-width="1.5"/>
+<path d="M620 315L640 312" stroke="#bdc3bf" stroke-width="3"/>
+<!-- Wheels -->
+<g transform="translate(217 330)"><circle r="46" fill="url(#tire-cs75)" stroke="#161c22" stroke-width="5"/><circle r="30" fill="url(#chrome-cs75)" stroke="#545e67" stroke-width="3"/><circle r="23" fill="#313c45"/><g fill="#ccd0d0"><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z"/><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z" transform="rotate(72)"/><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z" transform="rotate(144)"/><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z" transform="rotate(216)"/><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z" transform="rotate(288)"/></g><circle r="7" fill="#b9c1c5"/></g>
+<g transform="translate(568 330)"><circle r="46" fill="url(#tire-cs75)" stroke="#161c22" stroke-width="5"/><circle r="30" fill="url(#chrome-cs75)" stroke="#545e67" stroke-width="3"/><circle r="23" fill="#313c45"/><g fill="#ccd0d0"><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z"/><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z" transform="rotate(72)"/><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z" transform="rotate(144)"/><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z" transform="rotate(216)"/><path d="M-4-22H4L10-8 5-1 -5-1 -10-8Z" transform="rotate(288)"/></g><circle r="7" fill="#b9c1c5"/></g>
+<path d="M105 340Q360 358 648 338" stroke="#000" stroke-width="4" opacity=".27" fill="none"/>
+</svg>

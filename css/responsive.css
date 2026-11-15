@@ -1,0 +1,76 @@
+@media (max-width:1100px) {
+  .hero-copy h1 { font-size: 65px; }
+  .hero-layout { gap: 12px; }
+  .hero-visual img { width: 123%; }
+  .about-layout { gap: 45px; }
+  .contact-layout { gap: 45px; }
+  .vehicle-grid { gap: 15px; }
+  .vehicle-body { padding: 19px; }
+  .vehicle-body h3 { font-size: 20px; }
+}
+@media (max-width:850px) {
+  .section-space { padding: 75px 0; }
+  .header-inner { height: 72px; }
+  .mobile-toggle { display: grid; place-items: center; background: transparent; border: 1px solid #6b7077; border-radius: 5px; width: 43px; height: 41px; font-size: 24px; color: #fff; }
+  .nav-links { position: absolute; top: 72px; left: 0; right: 0; display: none; padding: 25px 24px 29px; flex-direction: column; align-items: stretch; gap: 20px; background: var(--deep-2); box-shadow: 0 20px 35px #0004; }
+  .nav-links.open { display: flex; }
+  .nav-links a { font-size: 15px !important; }
+  .nav-links .btn { text-align: center; }
+  .hero-layout { grid-template-columns: 1fr; min-height: auto; gap: 0; }
+  .hero-copy { padding: 75px 0 10px; }
+  .hero-copy h1 { font-size: clamp(54px, 10vw, 82px); max-width: 640px; }
+  .hero-stat-row { margin-top: 38px; }
+  .hero-visual { height: 415px; }
+  .hero-visual img { width: min(100%,680px); transform: none; }
+  .hero-visual-label { bottom: 19px; right: 20px; }
+  .trust-content { grid-template-columns: 1fr 1fr; gap: 18px; padding: 22px 0; }
+  .vehicle-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .about-layout,.contact-layout { grid-template-columns: 1fr; gap: 60px; }
+  .about-visual img { max-height: 470px; object-fit: cover; }
+  .about-copy { max-width: 600px; }
+  .faq-layout { grid-template-columns: 1fr; gap: 24px; }
+  .footer-layout { gap: 28px; }
+}
+@media (max-width:600px) {
+  .container { width: min(calc(100% - 32px), var(--container)); }
+  .section-space { padding: 60px 0; }
+  .brand-symbol { width: 38px; height: 38px; font-size: 25px; }
+  .brand-text strong { font-size: 16px; }
+  .brand-text small { font-size: 7px; }
+  .hero-copy { padding-top: 62px; }
+  .hero-copy h1 { font-size: clamp(51px,13vw,76px); }
+  .hero-description { font-size: 14px; }
+  .hero-stat-row { gap: 28px; }
+  .hero-visual { height: 280px; }
+  .hero-visual img { width: 117%; }
+  .hero-visual-label { display: none; }
+  .trust-content { grid-template-columns: 1fr 1fr; gap: 16px 5px; }
+  .trust-content p { font-size: 9px; white-space: normal; }
+  .trust-mark { margin-right: 3px; }
+  .inventory-intro { display: block; }
+  .section-note { max-width: 400px; }
+  .filters { padding: 13px; }
+  .filter-input { flex-basis: 100%; }
+  .filters select { min-width: 0; flex: 1 1 140px; }
+  .filters .count { width: 100%; margin: 0; }
+  .vehicle-grid { grid-template-columns: 1fr; }
+  .vehicle-photo { height: 250px; }
+  .about-visual-badge { padding: 15px; right: 0; }
+  .contact-form { padding: 25px 18px; }
+  .form-grid { grid-template-columns: 1fr; }
+  .form-field.full { grid-column: auto; }
+  .statement-layout { min-height: 320px; }
+  .statement-layout h2 { font-size: 44px; }
+  .footer-layout { grid-template-columns: repeat(2,1fr); gap: 24px; padding: 56px 0 25px; }
+  .footer-about { grid-column: 1/-1; }
+  .footer-bottom { flex-direction: column; }
+  .modal-scrim { padding: 8px; }
+  .modal-dialog { max-height: calc(100vh - 16px); }
+  .modal-layout { grid-template-columns: 1fr; }
+  .modal-image { height: 220px; min-height: 220px; }
+  .modal-info { padding: 25px 21px; }
+  .modal-info h2 { font-size: 28px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  *,*::before,*::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
